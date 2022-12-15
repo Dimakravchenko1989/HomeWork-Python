@@ -12,15 +12,12 @@ y = float (input('Введите координату точки Y: '))
 
 if (x > 0 and y >0):
     print('Первая четверть')
-else:
-    if (x < 0 and y >0):
-        print('Вторая четверть')
-    else:
-        if (x < 0 and y < 0):
-            print('Третья четверть')
-        else:
-            if (x > 0 and y < 0):
-                print('Четвертая четверть')
+elif (x < 0 and y >0):
+    print('Вторая четверть')
+elif (x < 0 and y < 0):
+    print('Третья четверть')
+elif (x > 0 and y < 0):
+    print('Четвертая четверть')
 
 
 
