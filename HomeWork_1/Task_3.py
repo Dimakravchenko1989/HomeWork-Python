@@ -3,13 +3,13 @@
 
 kvadrant = int (input('Введите номер четверти: '))
 
-if (kvadrant = 1):
-    print('Диапазон от 0 до ')
-elif (x < 0 and y >0)
-    print('Вторая четверть')
-    else:
-        if (x < 0 and y < 0):
-            print('Третья четверть')
-        else:
-            if (x > 0 and y < 0):
-                print('Четвертая четверть')
+if (kvadrant == 1):
+    print('Диапазон X > 0, Y > 0')
+elif(kvadrant == 2):
+    print('Диапазон X < 0, Y > 0')
+elif(kvadrant == 3):
+    print('Диапазон X < 0, Y < 0')
+elif(kvadrant == 4):
+    print('Диапазон X > 0, Y < 0')
+else: 
+    print('Такой четверти не существует')
