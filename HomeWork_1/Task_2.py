@@ -10,9 +10,9 @@
 x = float (input('Введите координату точки Х: '))
 y = float (input('Введите координату точки Y: '))
 
-if (x > 0 and y >0):
+if (x > 0 and y > 0):
     print('Первая четверть')
-elif (x < 0 and y >0):
+elif (x < 0 and y > 0):
     print('Вторая четверть')
 elif (x < 0 and y < 0):
     print('Третья четверть')
