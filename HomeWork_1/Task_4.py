@@ -13,4 +13,4 @@ y2 = float (input('Введите координаты точки В y2: '))
 katet1 = x1 - x2
 katet2 = y1 - y2
 gipotenusa = round((katet1 * katet1 + katet2 * katet2)**0.5,2)
-print('Расстояние между точками А и В =', gipotenusa)
+print(f'Расстояние между точками А и В = {gipotenusa}')
