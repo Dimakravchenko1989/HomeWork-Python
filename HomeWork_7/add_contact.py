@@ -25,4 +25,4 @@ def save_file(contact):
         file.write(f'{contact[0]}; {contact[1]}; {contact[2]}; {contact[3]};\n')
 
     with open('vertical.txt', 'a', encoding='UTF-8') as file:
-        file.write(f'{contact[0]}\n {contact[1]}\n {contact[2]}\n {contact[3]}\n')
+        file.write(f'{contact[0]}\n {contact[1]}\n {contact[2]}\n {contact[3]}\n ------------\n')

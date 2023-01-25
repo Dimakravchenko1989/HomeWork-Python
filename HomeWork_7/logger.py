@@ -1,3 +1,4 @@
+# Методы для вывода по строкам или столбцам
 
 def view():
     a = int(input('Вывод данных: \n\
@@ -7,15 +8,16 @@ def view():
     return a
 
 
-
 def reading_all(a):
     if a == 1:
         print('Вывод по строкам: \n')
         with open('horizontal.txt', 'r') as file:
             for line in file:
-                print(line)
+                print(line, end='')
+            print('\n')
     if a == 2:
         print('Вывод по столбцам: \n')
         with open('vertical.txt', 'r') as file:
             for line in file:
-                print(line)
+                print(line,end='')
+    
