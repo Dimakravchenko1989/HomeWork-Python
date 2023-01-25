@@ -1,3 +1,5 @@
+# Задача 5. Даны два файла, в каждом из которых находится запись многочлена. Задача - сформировать файл, 
+# содержащий сумму многочленов.
 
 f1 = open('file1.txt', 'r')
 f2 = open('file2.txt', 'r')
@@ -16,18 +18,4 @@ f1.close
 f2.close
 f3.close
 
-# data = input('Введите текст: ')
-# file = open('text.txt','a')
-# file.write(data + '\n')
 
-
-
-# file.close()
-# file = open('text.txt', 'r')
-
-
-# print(file.read())
-# for line in file:
-#     print(line, end="")
-
-# file.close()

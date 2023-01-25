@@ -4,7 +4,9 @@
 # - 6782 -> 23
 # - 0,56 -> 11
 
+
 number = input('Введите вещественное число: ')
+
 digit = filter(lambda x: x.isdigit(), str(number))
 sum_number = sum(map(int, digit))
 
